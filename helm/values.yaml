@@ -53,7 +53,7 @@ ns:
 api-gateway:
   image:
     registry: docker.io
-    repository: sergeyrudyka-wrong-user
+    repository: sergeyrudyka
     tag: 0.51.2
   service:
     type: NodePort
