@@ -52,7 +52,8 @@ ns:
   enable: false
 api-gateway:
   image:
-    repository: docker.io/sergeyrudyka/ambassador
+    registry: docker.io
+    repository: sergeyrudyka/ambassador
     tag: 0.51.2
   service:
     type: NodePort
